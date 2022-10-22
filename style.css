@@ -1,0 +1,77 @@
+body
+{
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: rgb(82, 88, 99);
+}
+
+.content
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background-color: rgb(233, 233, 233);
+    padding: 30px;
+    min-width: 20%;
+    border-radius: 8px;
+}
+
+.content h1
+{
+    font-size: 38px;
+    font-family: sans-serif;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.content input
+{
+    font-size: 20px;
+    margin-top: 15px;
+    padding: 7px;
+    min-width: 85%;
+}
+
+.content input[type=submit]
+{
+    padding: 10px;
+    min-width: 70%;
+    background-color: rgb(26, 146, 76);
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    box-shadow: 1px 1px 1px 1px rgb(6 41 20);
+    text-transform: uppercase;
+}
+
+.logo h1
+{
+    margin: 0;
+    background-color: rgb(28, 138, 74);
+    text-align: center;
+    color: rgb(241, 241, 241);
+    padding: 15px 0;
+    text-transform: uppercase;
+    font-family: 'Ubuntu';
+    letter-spacing: 1px;
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.content input[type=submit]:hover
+{
+    background-color: rgb(24, 114, 60);
+    cursor: pointer;
+}
+
+.error
+{
+    color: red;
+    margin-top: 3px;
+    font-weight: bold;
+}

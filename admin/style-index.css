@@ -1,0 +1,83 @@
+body
+{
+    font-family: sans-serif;
+}
+
+table
+{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+table, table *
+{
+    border-collapse: collapse;
+    border: 1px black solid;
+    font-size: 22px;
+    padding: 10px;
+    min-width: 20%;
+    text-align: center;
+}
+
+table
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table thead tr
+{
+    background-color: #32857d;
+    color: white;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+
+td
+{
+    font-weight: 400;
+}
+
+.logout
+{
+    position: absolute;
+    right: 5px;
+    color: black;
+    font-size: 20px;
+    transition: all ease-in-out 0.3s;
+}
+
+.logout:hover
+{
+    color: purple;
+    transform: scale(1.2);
+    right: 15px;
+}
+
+.header
+{
+    margin-bottom: 5px;
+    color: #32857d;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+hr
+{
+    margin-bottom: -25px;
+}
+
+.settings a
+{
+    font-size: 19px;
+    text-decoration: none;
+    color: black;
+    vertical-align: center;
+}
+
+.settings a, i
+{
+    color: purple;
+}
